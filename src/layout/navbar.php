@@ -9,7 +9,7 @@
     }
     if ($_SESSION['role'] == 'admin') {
       //Ne s'affiche pas si l'utilisateur connecté n'est pas admin
-      echo '<li><a href="/src/adminUserManagment.php">Gestion des utilisateurs (Admin)</a></li>';
+      echo '<li><a href="/src/adminUserManagmentPage.php">Gestion des utilisateurs (Admin)</a></li>';
     }
     ?>
   </ul>
